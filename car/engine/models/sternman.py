@@ -1,4 +1,4 @@
-from .interface import Engine
+from ..interface import Engine
 
 class SternmanEngine(Engine):
   def __init__(self, warning_indicator) -> None:
