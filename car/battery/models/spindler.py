@@ -1,4 +1,4 @@
-from .interface import Battery
+from ..interface import Battery
 
 class SpindlerBattery(Battery):
   def __init__(self, last_service_date):
