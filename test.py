@@ -96,7 +96,7 @@ class TestPalindrome(unittest.TestCase):
         warning_light_is_on = False
 
         car = self.creatorFunction(today, last_service_date, warning_light_is_on)
-        self.assertFalse(car.needs_service())
+        self.assertTrue(car.needs_service())
 
     def test_engine_should_be_serviced(self):
         last_service_date = datetime.today().date()
